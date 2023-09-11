@@ -1,0 +1,39 @@
+/* .post-card {
+    min-height: 100%;
+    min-width: 100%;
+} */
+
+.post-image {
+    max-height: 500px;
+    max-width: 800px;
+    padding: 0rem 4rem; 
+}
+
+.button {
+    padding: 1rem 1rem;
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+}
+
+.left-button {
+    position: fixed;
+    top: 50%;
+    left: 10rem;
+}
+
+.right-button {
+    position: fixed;
+    top: 50%;
+    right: 10rem;
+}
+
+.post-title {
+    margin: 3rem 0rem;
+}
+
+.post-timestamp {
+    margin-top: 2rem;
+    font-size: 0.6rem;
+    color: grey;
+}

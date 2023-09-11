@@ -3,7 +3,9 @@ import "../../../styling/footer.css"
 function Footer() {
   return (
     <>
-      <h3>By SK</h3>
+      <footer>
+        <h3>By SK</h3>
+      </footer>
     </>
   )
 }

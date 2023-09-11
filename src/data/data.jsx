@@ -1,4 +1,6 @@
-export const dataArray = [    
+/* Data.jsx is where the site's data is stored. For this task we have an object array with 24 different objects with different content. */
+
+const dataArray = [    
     /* City life */
     {
         timestamp: "2023-09-01 09:30",
@@ -173,3 +175,7 @@ export const dataArray = [
         description: "Teeing off at a scenic golf course, enjoying the calm and precision of the sport.",
         image: "./images/sports/sports (4).jpg",
     }]
+
+    /* Since this file's only content is the dataArray, I chose to export it as default for the document. In the case of having more than one object array or more data to use for a site.
+    I would in all likelyhood make seperate data documents containing the specific data.*/
+    export default dataArray
