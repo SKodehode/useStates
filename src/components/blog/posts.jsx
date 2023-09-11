@@ -30,6 +30,10 @@ function Posts() {
         setIndex(previousIndex);
     }
 
+    function resetPostCount() {
+        setIndex(0)
+    }
+
     let post = dataArray[index];
     return (
         <>
@@ -40,6 +44,7 @@ function Posts() {
                     <img className="post-image" src={post.image}/>
                     <p className="post-description">{post.description}</p>
                     <p className="post-indicator">({index + 1} of {dataArray.length})</p>
+                    <button className="reset-button" onClick={resetPostCount}>Reset</button>
                     <p className="post-timestamp">Posted<br></br>{post.timestamp}</p>
                 </div>
             </div>

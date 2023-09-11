@@ -32,6 +32,14 @@
     margin: 3rem 0rem;
 }
 
+.reset-button {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 .post-timestamp {
     margin-top: 2rem;
     font-size: 0.6rem;
