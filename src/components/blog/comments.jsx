@@ -1,12 +1,19 @@
 import { useState } from "react"
 import "../../styling/comments.css"
 
+/** 
+ * This document contains our comment section component. 
+ * 
+ * We use another useState hook in this function to memorize the values inserted into the input field.
+ * This allows the user to view the preview render without having to refresh the site while they type in a display name and their comment. 
+*/
 export default function Comments() {
     const [comment, setComments] = useState({
         displayName: "Display name..",
         inputText: "Comment.."
     });
 
+    /* This function is responsible for updating the preview */
     function handleDisplayName(e) {
         setComments({
             ...comment,

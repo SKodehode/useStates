@@ -1,3 +1,9 @@
+/* General styles used to set box sizing to every child container. */
+*{
+  box-sizing: border-box;
+}
+
+/* Stylings for the root container. Used for the purpose of setting general settings which child containers can inherit. */
 #root {
   min-height: 100vh;
   width: 100%;

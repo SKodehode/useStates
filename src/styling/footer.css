@@ -1,4 +1,6 @@
+/* Styles for the footer section of the page. It is currently not in use. */
 footer {
     min-width: 100%;
     min-height: 2rem;
+    display: none;
 }

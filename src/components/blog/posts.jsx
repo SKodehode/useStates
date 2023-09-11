@@ -19,6 +19,8 @@ function Posts() {
     /** A function to increment our index position by 1. Moving us to the next post.
      * We added % dataArray.length to this so that the index value would be divided by the array length to ensure that when the user
      * reaches the final post and clicks next, they would wrap around to the first one.
+     * At the bottom there's a resetPostCount function that's used with a button in order to reset the post count to 0. Returning the user back to the first post.
+     * There could be better ways to acomplish that result but I chose to use this method.
      */
     function nextPost() {
         const nextIndex = (index + 1) % dataArray.length;
@@ -34,7 +36,15 @@ function Posts() {
         setIndex(0)
     }
 
+    /* A let variable used to give the dataArray a shorter name. */
     let post = dataArray[index];
+    
+    /**
+     * This is the body of our post component.
+     * Here we have buttons in the form of icons. These are used to navigate between the different posts in the dataArray.
+     * Further down we have the post-wrapper container wrapping up the blog posts into cards.
+     * Creating elements that use the dataArray's properties to fill them with content.  
+     */
     return (
         <>
             <img className="button left-button" src="./images/icons/left_icon.svg" alt="" onClick={previousPost} />

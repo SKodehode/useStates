@@ -1,0 +1,6 @@
+/* Styles for the header section of the page. It is currently not in use. */
+header {
+    min-width: 100%;
+    min-height: 2rem;
+    display: none;
+}

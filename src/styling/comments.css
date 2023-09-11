@@ -1,3 +1,6 @@
+ /* Styles for the comment section of the page. */
+
+ /* Styles for the container wrapping up the comment section. Mainly used to set container positioning behaviour and container size. */
 .comment-section {
     display: flex;
     flex-direction: column;
@@ -8,6 +11,7 @@
     margin: 10rem 0rem auto auto;
 }
 
+/* General styles for the class name input used to manipulate both input fields in the comment section. */
 input {
     border: none;
     outline: none;
@@ -15,6 +19,7 @@ input {
     border-radius: 1rem;
 }
 
+/* Styles for the display name input field. It has been made to be slightly smaller in size compared with the comment field. */
 .display-name {
     width: 20rem;
     height: 2rem;
@@ -22,6 +27,7 @@ input {
     background-color: #f8f8f8;
 }
 
+/* Styles for the comment input field. */
 .comment-text {
     height: 10rem;
     width: 25rem;
@@ -29,6 +35,10 @@ input {
     background-color: #f8f8f8;
 }
 
+/** 
+* Preview is a container used to wrap up the elements used to preview the user's display name and comment.
+* This section let's the user preview how their display name and comment will appear before it has been submited to the page. 
+*/
 .preview {
     display: flex;
     flex-direction: column;
@@ -42,17 +52,20 @@ input {
     border: 0.1rem solid lightgrey;
 }
 
+/* Styles for the preview of a user's display name. */
 .displayname-preview {
     width: 45rem;
     font-weight: bold;
 }
 
+/* Styles for a separator added to separate the display name from the comment. I prefer this design to using border-top, even though that's an option as well. */
 hr.rounded {
     border-top: 0.1rem solid;
     /* border-radius: 5px; */
     width: 100%;
 }
 
+/* Styles for the container showcasing the user comment. */
 .comment-preview {
     width: 45rem;
 }

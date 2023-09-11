@@ -1,14 +1,13 @@
-/* .post-card {
-    min-height: 100%;
-    min-width: 100%;
-} */
+/* Styles for the blog post cards. */
 
+/* Styles for the post image. */
 .post-image {
     max-height: 500px;
     max-width: 800px;
     padding: 0rem 4rem; 
 }
 
+/* Styles for the buttons used to move between posts. */
 .button {
     padding: 1rem 1rem;
     cursor: pointer;
@@ -16,22 +15,26 @@
     width: 64px;
 }
 
+/* Unique class for the left button used to set it's position with the use of fixed positioning. */
 .left-button {
     position: fixed;
     top: 50%;
     left: 10rem;
 }
 
+/* Unique class for the right button used to set it's position with the use of fixed positioning. */
 .right-button {
     position: fixed;
     top: 50%;
     right: 10rem;
 }
 
+/* Styles for the post's title. */
 .post-title {
     margin: 3rem 0rem;
 }
 
+/* Styles for the unique reset button. */
 .reset-button {
     padding: 1rem;
     border: none;
@@ -40,6 +43,7 @@
     cursor: pointer;
 }
 
+/* Styles for the post timestamp. */
 .post-timestamp {
     margin-top: 2rem;
     font-size: 0.6rem;

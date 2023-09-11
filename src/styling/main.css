@@ -1,3 +1,4 @@
+/* Stylings for the main html element. It is currently used to manipulate child container positions. */
 main {
     display: flex;
     flex-direction: column;
