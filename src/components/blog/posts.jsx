@@ -22,16 +22,20 @@ function Posts() {
      * At the bottom there's a resetPostCount function that's used with a button in order to reset the post count to 0. Returning the user back to the first post.
      * There could be better ways to acomplish that result but I chose to use this method.
      */
+
+    /* This function increases the increment value by 1 every time the user clicks on the next post button. It is by incrementing the index number that allows the user to browse through each "post" in the data array. */
     function nextPost() {
         const nextIndex = (index + 1) % dataArray.length;
         setIndex(nextIndex);
     }
 
+    /* This function decreases the index value by 1 every time the user clicks on the previous post button. And by decrementing the index number the user is able to browse to the previous post in data array or browse the posts backwards.  */
     function previousPost() {
         const previousIndex = (index - 1 + dataArray.length) % dataArray.length;
         setIndex(previousIndex);
     }
 
+    /* This function is responsible for setting the index value back to zero. This function is working together with a reset button and it is used to reset the index values to 0 so that the user may return to the very first post. */
     function resetPostCount() {
         setIndex(0)
     }

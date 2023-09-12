@@ -13,7 +13,7 @@ export default function Comments() {
         inputText: "Comment.."
     });
 
-    /* This function is responsible for updating the preview */
+    /* This function is responsible for rendering and updating the display name preview as the user types out their display name of choice.*/
     function handleDisplayName(e) {
         setComments({
             ...comment,
@@ -21,6 +21,7 @@ export default function Comments() {
         });
     }
 
+    /* This function is responsible for rendering and updating the user's comment live while they type out their comment. */
     function handleInputText(e) {
         setComments({
             ...comment,
@@ -28,6 +29,7 @@ export default function Comments() {
         });
     }
     
+    /* Return statement which contains the page struckture for the comment section. */
     return (
         <>
             <div className="comment-section">
