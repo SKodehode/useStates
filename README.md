@@ -7,3 +7,5 @@ I have also added a basic comment section if you would call it that, to utilize 
 The comment section has two input fields, both of which utilizes useState. Each field has a live preview section which is updated and rendered live as the users type in a desired display name and their comment. 
 
 ![An image displaying the front page for my project. On the front page you will be greeted by a title, an image and a description.](public/images/preview.png)
+
+Visit here(https://frolicking-travesseiro-063b6f.netlify.app/)
