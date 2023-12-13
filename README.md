@@ -8,4 +8,4 @@ The comment section has two input fields, both of which utilizes useState. Each 
 
 ![An image displaying the front page for my project. On the front page you will be greeted by a title, an image and a description.](public/images/preview.png)
 
-Visit here(https://frolicking-travesseiro-063b6f.netlify.app/)
+![Visit here](https://frolicking-travesseiro-063b6f.netlify.app/)
